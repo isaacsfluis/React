@@ -1,0 +1,19 @@
+.card {
+    position: relative;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  .card:hover {
+    border-color: #007bff; /* Color del borde cuando se pasa el mouse */
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
+  .card:hover {
+    animation: pulse 1.2s infinite;
+  }
+    

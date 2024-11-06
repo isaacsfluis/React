@@ -1,0 +1,41 @@
+# Dependencias de Node.js
+/node_modules/
+
+# Directorios de producción
+/dist/
+/build/
+
+# Archivos de configuración de editor
+.vscode/
+/.idea/
+
+# Archivos de logs
+*.log
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de prueba (pueden ser agregados si tienes tests)
+coverage/
+
+# Archivos de configuración de bundlers o empaquetadores
+*.eslintcache
+*.stylelintcache
+*.prettier
+
+# Directorios y archivos de herramientas de desarrollo (por ejemplo, Webpack o Babel)
+/webpack.config.js
+/babel.config.js
+
+# Archivos generados por npm
+/package-lock.json
+/yarn.lock
+
+# Si usas la herramienta `create-react-app`
+/public/static/

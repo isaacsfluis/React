@@ -1,0 +1,43 @@
+1 genera un packge.json
+npm init -y
+2 Instalar librerias el cual crea un archivo package-lock.json
+npm install --save-dev webpack webpack-cli
+3 agregar linias de codigo y eliminar
+"start": "webpack --mode development",
+"build": "webpack --mode production"
+
+eliminar
+"test": "echo \"Error: no test specified\" && exit 1"
+
+4 correr el server
+npm start
+crear una carpeta llamada dist
+5 correr otro comando
+npm run build
+
+6 leer el archivo
+node dist/main.js
+
+7 intalar el dom de react
+npm install react react-dom
+
+8 correr un comando
+npm install --save-dev @babel/core babel-loader @babel/preset-env @babel/preset-react
+
+9 crear 2 archivos
+|- babel.config.json + |- webpack.config.js
+
+10 crear una carpeta con un archivo
++ |- public +    |- index.html
+
+11 renderizamos
+npm install --save-dev html-webpack-plugin
+
+12 corremos el server
+npm start
+npm run build
+open dist/index.html
+
+
+
+Derks, Roy. React Projects: Build advanced cross-platform projects with React and React Native to become a professional developer, 2nd Edition (pp. 35-36). Packt Publishing. Kindle Edition. 
